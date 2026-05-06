@@ -1,0 +1,33 @@
+# Local environment files (never commit credentials)
+env*.sh
+!env*.sh.example
+.env
+.env.*
+*.pem
+*.key
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local extracted archives / scratch
+raw_extracted/
+tmp/
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# pgbench-generated junk if accidentally committed
+pgbench_log.*
